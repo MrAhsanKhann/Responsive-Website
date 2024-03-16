@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>My Responsive Website</h1>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Welcome to My Website</h2>
+        <p>This is a simple responsive website built using HTML, CSS, and JavaScript.</p>
+        <button id="joinButton">Join</button>
+    </div>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Registration Form</h2>
+        <form id="joinForm">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Join</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
